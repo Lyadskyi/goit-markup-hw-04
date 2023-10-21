@@ -78,6 +78,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0 24px;
+  display: block;
   color: #2e2f42;
 }
 
@@ -111,6 +112,7 @@ p {
 
 .subtitle {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -134,6 +136,8 @@ p {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-right: auto;
+  margin-left: auto;
   color: #ffffff;
 }
 
@@ -148,6 +152,9 @@ p {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
   color: #ffffff;
   background: #4d5ae5;
 }
