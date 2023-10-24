@@ -127,6 +127,16 @@ p {
   padding-top: 188px;
   padding-bottom: 188px;
   background: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1699228800&Signature=IsnzFHv-TPKoQQ2xhLdde2Il1W2Iduu523DzS5H9~5H~3Ze14CD65mJDY51yh4ZiIED3~V1u2fUSY61S6y43WIrmmq32nAjfgrwsjlN1suwG40wW~uL~XFI63uVkdc2Rql5crbPEmMGOx5n6oB68LfQGk-ed34lcC595tEwiWAwkZU33Cw-BTG-mv5BdtF0viN1PQi0-xlOnseqgwwPjoPPylC-c5Q6Jb-401tUlBBHMka5na9aaPfBowaZ0sCsR1iar8U9Ck6H2q7pEFg6jwV9-kJCd-3htjmVzpu3tfm6onzLWnXevQbBwPRsLvWdmBZ3pW3G2Bbck2WSZM7eo2g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .section-hero-title {
@@ -183,6 +193,20 @@ p {
 .section-one-caption {
   padding: 120px 0;
   background: #ffffff;
+}
+
+.icon-list {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 24px;
+}
+
+.icon-list-item {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
 }
 
 .section-one-list-menu {
